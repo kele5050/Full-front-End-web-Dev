@@ -1,0 +1,87 @@
+.row-header{
+    margin: auto;
+    padding: 0px auto;
+}
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: rgb(73, 50, 50);
+    color: floralwhite;
+    border-radius: 0px;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.footer{
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px ;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+.navbar-dark{
+    border: 0px;
+    background-color:darkgoldenrod;
+
+}
+body{
+    padding-top: 50px;
+}
+.price{
+    text-decoration: none;
+    text-align: center;
+    color: #0f0f0f;
+}
+.price a:hover {
+    text-decoration: none;
+    list-style: none;
+}
+.wapper{
+    background-color: rgb(71, 15, 15);
+}
+#menu-tile, #Specials-tile, #Map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+#menu-tile:hover, #Specials-tile:hover, #Map-tile:hover{
+    box-shadow: 1px 2px 2px 2px #cccc;
+}
+#menu-tile{
+    background-image: url(../conFusion/img/fast-food-menu-hot-dog-600w-754278754.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Specials-tile{
+    background-image: url(../conFusion/img/specials.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Map-tile{
+    background-image: url(../conFusion/img/images\ \(12\).png);
+    background-position:center;
+    background-size: cover;
+}
+#menu-tile span, #Specials-tile span, #Map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .9;
+    border-radius: 5px;
+}

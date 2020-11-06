@@ -19,7 +19,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kelechi">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="index.html" class="navbar-brand">NaijaBet.com</a>
+            <a href="index.html" class="navbar-brand"><img src="./img/images (12).png" width="41" height="41" alt=""></a>
             <div class="collapse navbar-collapse" id="kelechi">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item "><a class="nav-link active" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -31,15 +31,53 @@
             
         </div>
     </nav>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg fixed-top mt-2 ml-2" data-toggle="modal" data-target="#modelId">
+      <span class="fa fa-sign-in"></span>Login
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title offset-6">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-12 col-md-10">
+                            <input type="text" class="form-control" id="Email" name="Email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-12 col-md-10">
+                            <input type="password" class="form-control" id="Passward" name="Passward" placeholder="Passward">
+                        </div>
+                    </div>     
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancle</button>
+                    <button type="button" class="btn btn-primary"> <a href="index.html d-none" class="text-white"> Login</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="jumbotron">
         <div class="container">
             <div class="row  row-header">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 order-sm-last">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm align-self-center order-sm-first">
+                    <img src="./img/images (12).png" height="100" width="150" class="img-fluid" alt="Menu-image">
                 </div>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Order by Call">
+                    But ton name
+                </button>
             </div>
         </div>
     </header>
@@ -50,10 +88,17 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-            </div>
+                <div class="media">
+                    <img class="d-flex img-thumbnail align-self-center offset-3" width="150" height="150" src="./img/Screenshot_20200926-133107.jpg" alt="">
+                    </div>  
+                    <div class="madia-body text-align-center">
+                      <a  class="price" href="">  <h2 class=""> Uthappizza <span class="badge badge-danger ">HOT</span> <span class="badge badge-pill bg-secondary">$4.24 per Plate</span></h2> </a>
+                        <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                     
+                </div>
+                </div>
         </div>
+        
 
 
         <div class="row row-content align-items-center">
@@ -77,12 +122,13 @@
             </div>
         </div>
     </div>
+    
 
     <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4  offset-1 col-sm-2">
-                    <h5>Links</h5>
+                        <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -96,9 +142,9 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		             <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		             <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
+		              <i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
@@ -112,7 +158,7 @@
                     </div>
                 </div>
            </div>
-           <div class="row justify-content-center">             
+           <div class="row -content rowjustify-content-center">             
                 <div class="col-aut">
                     <p>© Copyright 2020 Ristorante Con Fusion</p>
                 </div>
